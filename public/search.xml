@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>C++拾忆</title>
+      <link href="2021/04/26/C++%E6%8B%BE%E5%BF%86/"/>
+      <url>2021/04/26/C++%E6%8B%BE%E5%BF%86/</url>
+      
+        <content type="html"><![CDATA[<h5 id="1-语言链接性"><a href="#1-语言链接性" class="headerlink" title="1.语言链接性"></a>1.语言链接性</h5><p>  链接程序要求每个不同的函数都有不同的符号名。在C中，一个名称只对应一个函数。</p><p>  C语言的编译器可能将spiff这样的函数名翻译为*_spiff*，这种成为C语言链接性。但是在C++中，函数有</p><p>重载的可能，必须将这些函数翻译位不同的符号名称。So，C++编译器执行名称矫正或名称修饰，为重</p><p>载函数生成不同的符号名称。for example, spiff(int) 转换为*_spiff_i* , spiff(double,double)转换为</p><p><em>_spiff_d_d</em>,此为C++的语言链接。</p><p>  如何在C++中是用C库中的文件符号？</p><figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extern</span> <span class="string">"C"</span> <span class="function"><span class="keyword">void</span> <span class="title">spiff</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">extern</span> <span class="keyword">void</span> <span class="title">spoff</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">extern</span> <span class="string">"C++"</span> <span class="function"><span class="keyword">void</span> <span class="title">spaff</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>UEFI compile environment configuration</title>
       <link href="2021/04/21/UEFI-compile-environment-configuration/"/>
       <url>2021/04/21/UEFI-compile-environment-configuration/</url>
