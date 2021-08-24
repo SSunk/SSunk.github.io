@@ -384,7 +384,7 @@ td {
 }
 .highlight,
 pre {
-  background: #351818;
+  background: #f7f7f7;
   color: #4d4d4c;
   line-height: 1.6;
   margin: 0 auto 20px;
@@ -447,7 +447,7 @@ code {
   text-align: right;
 }
 .highlight .code pre {
-  background: #351818;
+  background: #f7f7f7;
   padding-left: 10px;
   width: 100%;
 }
@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0e655c;
+  background: #7f77ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
