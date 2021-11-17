@@ -20,17 +20,26 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"./public/search.xml"};
   </script>
 
-  <meta name="description" content="一. 几个常忘的概率公式 1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)分布律：$$P(A) &#x3D; C_{n}^{k}p^k(1-p)^{n-k}$$ ,当 n &#x3D; 1时，二项分布是 0 - 1 分布 2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布3.第n次试验恰好是事件A第K次发生伯努利试验二.真题复盘 2010数学一">
+  <meta name="description" content="一. 几个常忘的概率公式 1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)分布律：$$P(A) &#x3D; C_{n}^{k}p^k(1-p)^{n-k}$$ ,当 n &#x3D; 1时，二项分布是 0 - 1 分布 2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布3.第n次试验恰好是事件A第K次发生伯努利试验 二.真题复盘 2010数学一：    2011数学一：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="考研数学查漏补缺知识点">
 <meta property="og:url" content="http://example.com/2021/11/11/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E6%9F%A5%E6%BC%8F%E8%A1%A5%E7%BC%BA%E7%9F%A5%E8%AF%86%E7%82%B9/index.html">
 <meta property="og:site_name" content="Sun&#39;s Blog">
-<meta property="og:description" content="一. 几个常忘的概率公式 1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)分布律：$$P(A) &#x3D; C_{n}^{k}p^k(1-p)^{n-k}$$ ,当 n &#x3D; 1时，二项分布是 0 - 1 分布 2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布3.第n次试验恰好是事件A第K次发生伯努利试验二.真题复盘 2010数学一">
+<meta property="og:description" content="一. 几个常忘的概率公式 1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)分布律：$$P(A) &#x3D; C_{n}^{k}p^k(1-p)^{n-k}$$ ,当 n &#x3D; 1时，二项分布是 0 - 1 分布 2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布3.第n次试验恰好是事件A第K次发生伯努利试验 二.真题复盘 2010数学一：    2011数学一：">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/image-20211117105745465.png">
 <meta property="og:image" content="http://example.com/images/image-20211117110559126.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111600930.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111629702.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111733609.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111834418.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111902451.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111926266.png">
+<meta property="og:image" content="http://example.com/images/image-20211117111947507.png">
+<meta property="og:image" content="http://example.com/images/image-20211117112030571.png">
+<meta property="og:image" content="http://example.com/images/image-20211117112206632.png">
 <meta property="article:published_time" content="2021-11-11T02:43:43.000Z">
-<meta property="article:modified_time" content="2021-11-17T03:06:39.800Z">
+<meta property="article:modified_time" content="2021-11-17T03:22:29.136Z">
 <meta property="article:author" content="Sun">
 <meta property="article:tag" content="高数">
 <meta name="twitter:card" content="summary">
@@ -229,7 +238,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-11-17 11:06:39" itemprop="dateModified" datetime="2021-11-17T11:06:39+08:00">2021-11-17</time>
+                <time title="修改时间：2021-11-17 11:22:29" itemprop="dateModified" datetime="2021-11-17T11:22:29+08:00">2021-11-17</time>
               </span>
 
           
@@ -252,9 +261,19 @@
       
         <h4 id="一-几个常忘的概率公式"><a href="#一-几个常忘的概率公式" class="headerlink" title="一. 几个常忘的概率公式"></a>一. 几个常忘的概率公式</h4><hr>
 <h5 id="1-二项分布背景：n次独立重复试验中事件A发生的次数满足X-B-n-p"><a href="#1-二项分布背景：n次独立重复试验中事件A发生的次数满足X-B-n-p" class="headerlink" title="1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)"></a>1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)</h5><p>分布律：<br>$$<br>P(A) = C_{n}^{k}p^k(1-p)^{n-k}<br>$$<br> ,当 n = 1时，二项分布是 0 - 1 分布</p>
-<h5 id="2-在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布"><a href="#2-在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布" class="headerlink" title="2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布"></a>2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布</h5><h5 id="3-第n次试验恰好是事件A第K次发生伯努利试验"><a href="#3-第n次试验恰好是事件A第K次发生伯努利试验" class="headerlink" title="3.第n次试验恰好是事件A第K次发生伯努利试验"></a>3.第n次试验恰好是事件A第K次发生伯努利试验</h5><h4 id="二-真题复盘"><a href="#二-真题复盘" class="headerlink" title="二.真题复盘"></a>二.真题复盘</h4><hr>
-<h5 id="2010数学一"><a href="#2010数学一" class="headerlink" title="2010数学一"></a>2010数学一</h5><p><img src="/images/image-20211117105745465.png" alt="image-20211117105745465"></p>
+<h5 id="2-在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布"><a href="#2-在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布" class="headerlink" title="2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布"></a>2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布</h5><h5 id="3-第n次试验恰好是事件A第K次发生伯努利试验"><a href="#3-第n次试验恰好是事件A第K次发生伯努利试验" class="headerlink" title="3.第n次试验恰好是事件A第K次发生伯努利试验"></a>3.第n次试验恰好是事件A第K次发生伯努利试验</h5><hr>
+<h4 id="二-真题复盘"><a href="#二-真题复盘" class="headerlink" title="二.真题复盘"></a>二.真题复盘</h4><hr>
+<h5 id="2010数学一："><a href="#2010数学一：" class="headerlink" title="2010数学一："></a>2010数学一：</h5><p><img src="/images/image-20211117105745465.png" alt="image-20211117105745465"></p>
 <p><img src="/images/image-20211117110559126.png" alt="image-20211117110559126"></p>
+<p><img src="/images/image-20211117111600930.png" alt="image-20211117111600930"></p>
+<p><img src="/images/image-20211117111629702.png" alt="image-20211117111629702"></p>
+<h5 id="2011数学一："><a href="#2011数学一：" class="headerlink" title="2011数学一："></a>2011数学一：</h5><p><img src="/images/image-20211117111733609.png" alt="image-20211117111733609"></p>
+<p><img src="/images/image-20211117111834418.png" alt="image-20211117111834418"></p>
+<p><img src="/images/image-20211117111902451.png" alt="image-20211117111902451"></p>
+<p><img src="/images/image-20211117111926266.png" alt="image-20211117111926266"></p>
+<p><img src="/images/image-20211117111947507.png" alt="image-20211117111947507"></p>
+<p><img src="/images/image-20211117112030571.png" alt="image-20211117112030571"></p>
+<p><img src="/images/image-20211117112206632.png" alt="image-20211117112206632"></p>
 
     </div>
 
@@ -335,7 +354,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80-%E5%87%A0%E4%B8%AA%E5%B8%B8%E5%BF%98%E7%9A%84%E6%A6%82%E7%8E%87%E5%85%AC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">一. 几个常忘的概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-%E4%BA%8C%E9%A1%B9%E5%88%86%E5%B8%83%E8%83%8C%E6%99%AF%EF%BC%9An%E6%AC%A1%E7%8B%AC%E7%AB%8B%E9%87%8D%E5%A4%8D%E8%AF%95%E9%AA%8C%E4%B8%AD%E4%BA%8B%E4%BB%B6A%E5%8F%91%E7%94%9F%E7%9A%84%E6%AC%A1%E6%95%B0%E6%BB%A1%E8%B6%B3X-B-n-p"><span class="nav-number">1.1.</span> <span class="nav-text">1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E5%9C%A8%E7%8B%AC%E7%AB%8B%E9%87%8D%E5%A4%8D%E5%AE%9E%E9%AA%8C%E4%B8%AD%EF%BC%8C%E6%97%B6%E9%97%B4A%E9%A6%96%E6%AC%A1%E5%8F%91%E7%94%9F%E6%97%B6%E6%89%80%E8%BF%9B%E8%A1%8C%E7%9A%84%E8%AF%95%E9%AA%8C%E6%AC%A1%E6%95%B0X%E6%9C%8D%E4%BB%8E%E5%87%A0%E4%BD%95%E5%88%86%E5%B8%83"><span class="nav-number">1.2.</span> <span class="nav-text">2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-%E7%AC%ACn%E6%AC%A1%E8%AF%95%E9%AA%8C%E6%81%B0%E5%A5%BD%E6%98%AF%E4%BA%8B%E4%BB%B6A%E7%AC%ACK%E6%AC%A1%E5%8F%91%E7%94%9F%E4%BC%AF%E5%8A%AA%E5%88%A9%E8%AF%95%E9%AA%8C"><span class="nav-number">1.3.</span> <span class="nav-text">3.第n次试验恰好是事件A第K次发生伯努利试验</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C-%E7%9C%9F%E9%A2%98%E5%A4%8D%E7%9B%98"><span class="nav-number">2.</span> <span class="nav-text">二.真题复盘</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2010%E6%95%B0%E5%AD%A6%E4%B8%80"><span class="nav-number">2.1.</span> <span class="nav-text">2010数学一</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80-%E5%87%A0%E4%B8%AA%E5%B8%B8%E5%BF%98%E7%9A%84%E6%A6%82%E7%8E%87%E5%85%AC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">一. 几个常忘的概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-%E4%BA%8C%E9%A1%B9%E5%88%86%E5%B8%83%E8%83%8C%E6%99%AF%EF%BC%9An%E6%AC%A1%E7%8B%AC%E7%AB%8B%E9%87%8D%E5%A4%8D%E8%AF%95%E9%AA%8C%E4%B8%AD%E4%BA%8B%E4%BB%B6A%E5%8F%91%E7%94%9F%E7%9A%84%E6%AC%A1%E6%95%B0%E6%BB%A1%E8%B6%B3X-B-n-p"><span class="nav-number">1.1.</span> <span class="nav-text">1. 二项分布背景：n次独立重复试验中事件A发生的次数满足X~B(n,p)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-%E5%9C%A8%E7%8B%AC%E7%AB%8B%E9%87%8D%E5%A4%8D%E5%AE%9E%E9%AA%8C%E4%B8%AD%EF%BC%8C%E6%97%B6%E9%97%B4A%E9%A6%96%E6%AC%A1%E5%8F%91%E7%94%9F%E6%97%B6%E6%89%80%E8%BF%9B%E8%A1%8C%E7%9A%84%E8%AF%95%E9%AA%8C%E6%AC%A1%E6%95%B0X%E6%9C%8D%E4%BB%8E%E5%87%A0%E4%BD%95%E5%88%86%E5%B8%83"><span class="nav-number">1.2.</span> <span class="nav-text">2.在独立重复实验中，时间A首次发生时所进行的试验次数X服从几何分布</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-%E7%AC%ACn%E6%AC%A1%E8%AF%95%E9%AA%8C%E6%81%B0%E5%A5%BD%E6%98%AF%E4%BA%8B%E4%BB%B6A%E7%AC%ACK%E6%AC%A1%E5%8F%91%E7%94%9F%E4%BC%AF%E5%8A%AA%E5%88%A9%E8%AF%95%E9%AA%8C"><span class="nav-number">1.3.</span> <span class="nav-text">3.第n次试验恰好是事件A第K次发生伯努利试验</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C-%E7%9C%9F%E9%A2%98%E5%A4%8D%E7%9B%98"><span class="nav-number">2.</span> <span class="nav-text">二.真题复盘</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2010%E6%95%B0%E5%AD%A6%E4%B8%80%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">2010数学一：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2011%E6%95%B0%E5%AD%A6%E4%B8%80%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">2011数学一：</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
